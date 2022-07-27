@@ -1,4 +1,4 @@
-package handlers
+package dog
 
 import (
 	config "goFiber/config"
