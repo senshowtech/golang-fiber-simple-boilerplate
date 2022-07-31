@@ -15,5 +15,5 @@ func main() {
 	app.Post("/login", auth.Login)
 	app.Get("/", dog.GetDogs)
 	app.Get("/restricted", middleware.AuthRequired(), auth.Restricted)
-	app.Listen(":3000")
+	app.Listen(":5000")
 }
